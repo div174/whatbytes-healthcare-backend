@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite local test database
+*.sqlite3
+db.sqlite3
+
+# Static & media files
+media/
+staticfiles/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
